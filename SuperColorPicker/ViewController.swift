@@ -206,8 +206,6 @@ extension ViewController : UIPickerViewDelegate {
             textLabel5.text = label5.backgroundColor?.hexString
             textLabel6.text = label6.backgroundColor?.hexString
             
-  
-            
         default:
             label2.backgroundColor = UIColor.white
             label3.backgroundColor = UIColor.white
@@ -229,7 +227,6 @@ extension ViewController : UIPickerViewDelegate {
 
     
 
-
 extension ViewController : ChromaColorPickerDelegate {
     func colorPickerDidChooseColor(_ colorPicker: ChromaColorPicker, color: UIColor) {
         App.shared.data.append(color.hexString) 
@@ -237,3 +234,4 @@ extension ViewController : ChromaColorPickerDelegate {
     
     
 }
+

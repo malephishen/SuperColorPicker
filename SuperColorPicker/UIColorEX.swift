@@ -177,7 +177,6 @@ extension UIColor {
        if a < 1 {
             color += String(format: "%02lX", lroundf(Float(a)))
         }
- 
         
         return color
     }
