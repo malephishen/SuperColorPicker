@@ -313,17 +313,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SuperColorPicker/Pods-SuperColorPicker-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperColorPicker/Pods-SuperColorPicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperColorPicker/Pods-SuperColorPicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperColorPicker/Pods-SuperColorPicker-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperColorPicker/Pods-SuperColorPicker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5F16164615F2CD12E05A6ACC /* [CP] Check Pods Manifest.lock */ = {

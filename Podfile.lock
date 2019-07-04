@@ -1,16 +1,30 @@
 PODS:
   - ChromaColorPicker (1.7.2)
+  - UIColor_Hex_Swift (5.1.0)
 
 DEPENDENCIES:
-  - ChromaColorPicker
+  - ChromaColorPicker (from `https://github.com/valerianb/ChromaColorPicker.git`, commit `d358791c7f593d6ea7d6f8c2cac2cf8fae582bc1`, branch `master`)
+  - UIColor_Hex_Swift (~> 5.1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - ChromaColorPicker
+    - UIColor_Hex_Swift
+
+EXTERNAL SOURCES:
+  ChromaColorPicker:
+    :branch: master
+    :commit: d358791c7f593d6ea7d6f8c2cac2cf8fae582bc1
+    :git: https://github.com/valerianb/ChromaColorPicker.git
+
+CHECKOUT OPTIONS:
+  ChromaColorPicker:
+    :commit: cd6d36c8570fed45eac85b31684dace016f6fbc2
+    :git: https://github.com/valerianb/ChromaColorPicker.git
 
 SPEC CHECKSUMS:
-  ChromaColorPicker: 78194fbae9f342d3781ac178c4d92c7652197d18
+  ChromaColorPicker: 080448e593d3e34a8cfadf360c4c04e639738c02
+  UIColor_Hex_Swift: 8be7432edacb7fa91c78aa05ef3c30b66e4f9415
 
-PODFILE CHECKSUM: 94c7541a70393c933ca7642fcae4b200b6feeba5
+PODFILE CHECKSUM: cf544d4ee3e03eeb770b1d1c4701d9d1c35f53f8
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.7.3
